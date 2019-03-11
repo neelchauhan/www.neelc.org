@@ -1,0 +1,16 @@
+baseURL = "https://www.neelc.org/"
+languageCode = "en-us"
+title = "Neel Chauhan"
+theme = "sam"
+publishDir = "/usr/local/www/www.neelc.org/"
+
+[params]
+    homepage = "homepage"
+
+[[params.mainMenu]]
+    link = "/projects"
+    text = "projects"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "about neel"
