@@ -17,7 +17,7 @@ policy configuration, entry guard optimizations, and FreeBSD support.
 My Tor commits can be seen at
 [Tor's GitWeb](https://gitweb.torproject.org/tor.git/log/?qt=author&q=Neel+Chauhan).
 
-I have briefly contributed to [Stem](https://stem.torproject.org/),
+In the past, I have briefly contributed to [Stem](https://stem.torproject.org/),
 the Tor controller library in Python. I have since then refocused on Core Tor.
 My Stem commits can be seen at
 [Stem's GitWeb](https://gitweb.torproject.org/stem.git/log/?qt=author&q=Neel+Chauhan).
