@@ -8,7 +8,8 @@ title: "Projects"
 anonymity service which routes traffic through three servers in an "onion"
 design.
 
-I am a Core Tor contributor. My focus in Tor development is on
+I am a [Core Tor](https://trac.torproject.org/projects/tor/wiki/doc/community/glossary#TorTornetworkCoreTor)
+contributor. My focus in Tor development is on
 [Onion Services](https://www.torproject.org/docs/onion-services.html.en) and
 IPv6 support. I have also contributed to other areas in Tor including exit
 policy configuration, entry guard optimizations, and FreeBSD support.
