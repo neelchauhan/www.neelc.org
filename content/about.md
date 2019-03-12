@@ -12,3 +12,7 @@ In my spare time, I am a contributor to [Tor](https://www.torproject.org/)
 and [FreeBSD Ports](https://www.freebsd.org/ports/).
 
 To get in contact with me, my email is: neel **at** neelc **dot** org.
+
+I am also available on [GitHub](https://github.com/neelchauhan/),
+[Twitter](https://twitter.com/_neelc/),
+or [LinkedIn](https://linkedin.com/in/neelc-tor).
