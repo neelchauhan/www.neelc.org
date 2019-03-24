@@ -8,6 +8,10 @@ publishDir = "/usr/local/www/www.neelc.org/"
     homepage = "homepage"
 
 [[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
+
+[[params.mainMenu]]
     link = "/projects"
     text = "projects"
 
