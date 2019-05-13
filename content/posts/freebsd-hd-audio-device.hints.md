@@ -1,5 +1,5 @@
 ---
-title: "Automatic Switchover between Headphones and Speakers on FreeBSD Laptops with device.hints"
+title: "Automatic Switchover between Headphones and Speakers on FreeBSD with device.hints"
 date: 2019-03-23T19:57:46-04:00
 showDate: true
 ---
