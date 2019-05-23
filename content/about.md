@@ -5,8 +5,10 @@ title: "About Neel"
 Hi!
 
 My name is Neel Chauhan and I am a [NYU Tandon](https://engineering.nyu.edu/)
-student majoring in Computer Science. I work at
-[NYU CUSP](https://cusp.nyu.edu/) as a research assistant.
+student majoring in Computer Science. I currently work at Tandon's
+[Secure Systems Lab](https://ssl.engineering.nyu.edu/) on CacheCash.
+Previously, I worked at [NYU CUSP](https://cusp.nyu.edu/) as a research
+assistant.
 
 In my spare time, I am a contributor to [Tor](https://www.torproject.org/)
 and [FreeBSD Ports](https://www.freebsd.org/ports/).
