@@ -57,8 +57,8 @@ work, try the other one.
 
 Using the output for my system, my `device.hints` has the following new lines:
 
-    hint.hdac.0.cad0.nid26.config="as=1 seq=15 device=Headphones"
-    hint.hdac.0.cad0.nid22.config="as=2 seq=0"
+    hint.hdac.0.cad0.nid22.config="as=1 seq=15 device=Headphones"
+    hint.hdac.0.cad0.nid26.config="as=2 seq=0"
 
 **Note:** Don't just copy and paste my values, your system may be different!
 
