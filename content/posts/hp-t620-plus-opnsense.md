@@ -1,5 +1,5 @@
 ---
-title: "Fixing the \"Segmentation Fault\" when installing OPNsense on the HP T620 Plus"
+title: "Fixing the \"Segmentation Fault\" error when installing OPNsense on the HP T620 Plus"
 date: 2019-07-05T15:36:00-04:00
 showDate: true
 ---
