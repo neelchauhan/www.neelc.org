@@ -6,6 +6,8 @@ publishDir = "/usr/local/www/www.neelc.org/"
 
 [params]
     homepage = "homepage"
+    author = "Neel Chauhan"
+    description = "Neel's personal website."
 
 [[params.mainMenu]]
     link = "/posts"
