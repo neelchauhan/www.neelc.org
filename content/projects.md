@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+date = "2019-10-27"
 ---
 
 # The Tor Project (2014-Present)
@@ -17,42 +18,30 @@ policy configuration, entry guard optimizations, and FreeBSD support.
 My Tor commits can be seen at
 [Tor's GitWeb](https://gitweb.torproject.org/tor.git/log/?qt=author&q=Neel+Chauhan).
 
-In the past, I have briefly contributed to [Stem](https://stem.torproject.org/),
-the Tor controller library in Python. I have since then refocused on Core Tor.
-My Stem commits can be seen at
-[Stem's GitWeb](https://gitweb.torproject.org/stem.git/log/?qt=author&q=Neel+Chauhan).
-
 I also run Tor relays and exits, and have done so since 2014. My relays can be
 seen at
 [Tor Relay Status](https://metrics.torproject.org/rs.html#search/NeelTor%20contact:neelc).
 
-# FreeBSD Ports (2014-Present)
+# The FreeBSD Project (2014-Present)
+
+[FreeBSD](https://www.freebsd.org/) is a general-purpose Unix-like operating
+system derived from UC Berkeley's Berkeley Software Distribution. I have been
+a FreeBSD user since 2012 and contributor since 2014.
 
 [FreeBSD Ports](https://www.freebsd.org/ports/) is
 [FreeBSD's](https://www.freebsd.org/) package management system. This is
 similar to other tools like Debian's `apt-get` and Node's `npm`.
 
-I maintain Ports for a variety of software titles including
-[Keras](https://keras.io/), [Mongrel2](http://mongrel2.org/),
-[CloudCompare](https://www.danielgm.net/cc/), and [I2P](https://geti2p.net/en/).
+I maintain Ports and a list is available at
+[FreshPorts](https://www.freshports.org/search.php?stype=maintainer&method=exact&query=neel@neelc.org).
 
-A full list of Ports I maintain is available at
-[FreshPorts](https://www.freshports.org/search.php?stype=maintainer&method=exact&query=neel@neelc.org),
-and my latest Ports updates can be seen at
-[FreshBSD](http://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&repository%5B%5D=ports&sort=commit_date).
+I am also a contributor to the FreeBSD kernel. I wrote patches to add support
+for the Intel's Whiskey Lake platform and have also tested other patches for
+page mapping, and Synaptics touchpad support. Commits I worked or helped on
+can be seen at
+[FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&repository%5B%5D=src&sort=commit_date).
 
 # Miscellaneous Personal Software Projects
 
-These are software projects I wrote at various points in time "for fun". They
-include:
-
- * [scrollify](https://github.com/neelchauhan/scrollify) - Tool to scroll up
-   or down using the command line
- * [OnionLauncher](https://github.com/neelchauhan/onionlauncher) - Python/Qt5
-   Launcher for Tor
- * [TorNova](https://github.com/neelchauhan/TorNova) - Python/GTK+3 Launcher
-   for Tor
- * [currtime](https://github.com/neelchauhan/currtime) - Command-line real time
-   clock for Unix-like systems
-
-Keep in mind that most (if not all) of these are unmaintained.
+I have also written toy software projects, all of which can be seen on
+[GitHub](https://github.com/neelchauhan/).
