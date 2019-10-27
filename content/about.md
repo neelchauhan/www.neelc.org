@@ -1,6 +1,6 @@
 ---
 title: "About Neel"
-date = "2019-10-27"
+date: "2019-10-27"
 ---
 
 Hi!

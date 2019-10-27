@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-date = "2019-10-27"
+date: "2019-10-27"
 ---
 
 # The Tor Project (2014-Present)
