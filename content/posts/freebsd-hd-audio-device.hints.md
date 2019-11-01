@@ -4,9 +4,10 @@ date: 2019-03-23T19:57:46-04:00
 showDate: true
 ---
 
-If you're like me and run FreeBSD on a laptop (mine is a HP EliteBook x360 1030
-G2), one issue you may encounter is the fact that switching between speakers
-and headphones isn't automatic. This isn't a HP-specific problem as I also know
+If you're like me and run FreeBSD on a laptop (mine ~~is~~ **was** a HP
+EliteBook x360 1030 G2 **before I broke it in a bothed "repair" job**), one
+issue you may encounter is the fact that switching between speakers and
+headphones isn't automatic. This isn't a HP-specific problem as I also know
 this impacts Dell laptops, and probably impacts other laptop brands as well.
 
 However, not all hope is lost. FreeBSD allows you to specify your audio device
