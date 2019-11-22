@@ -8,8 +8,8 @@ Hi!
 My name is Neel Chauhan and I am a [NYU Tandon](https://engineering.nyu.edu/)
 student majoring in Computer Science. I currently work on
 [CacheCash](https://ssl.engineering.nyu.edu/projects#cachecash) and
-[Lind](https://ssl.engineering.nyu.edu/projects#lind) at Tandon, and.
-and [NYU CUSP](https://cusp.nyu.edu/)'s Urban Modelling Group.
+[Lind](https://ssl.engineering.nyu.edu/projects#lind) at Tandon, and
+[NYU CUSP](https://cusp.nyu.edu/)'s Urban Modelling Group.
 
 In my spare time, I am a contributor to [Tor](https://www.torproject.org/)
 and [FreeBSD Ports](https://www.freebsd.org/ports/).
