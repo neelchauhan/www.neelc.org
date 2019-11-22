@@ -36,7 +36,7 @@ I maintain Ports and a list is available at
 [FreshPorts](https://www.freshports.org/search.php?stype=maintainer&method=exact&query=neel@neelc.org).
 
 I am also a contributor to the FreeBSD kernel. I wrote patches to add support
-for the Intel's Whiskey Lake platform, and have also tested other patches for
+for Intel's Whiskey Lake platform, and have also tested other patches for
 page mapping and Synaptics touchpad support. Commits I worked or helped on
 can be seen at
 [FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&repository%5B%5D=src&sort=commit_date).
