@@ -12,7 +12,7 @@ in-kernel NAT.
 
 Why IPFW? Benchmarks have shown
 [IPFW to be faster](https://bsdrp.net/documentation/technical_docs/performance)
-which is especially good for my Tor relay, and and because I can! However, one
+which is especially good for my Tor relay, and because I can! However, one
 downside of IPFW is less documentation vs PF, even less without `natd` (which
 we're not using), and this took me time to figure this out.
 
