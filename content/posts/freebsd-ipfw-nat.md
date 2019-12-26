@@ -26,7 +26,7 @@ First, you need the `ipfw` and `ipfw_nat` kernel modules. To load them, run:
 
     kldload ipfw ipfw_nat
 
-To enable this at boottime, put the following in `/etc/rc.conf`:
+To enable this at boot, put the following in `/etc/rc.conf`:
 
     kld_list="ipfw ipfw_nat"
 
