@@ -5,14 +5,15 @@ date: "2019-10-27"
 
 Hi!
 
-My name is Neel Chauhan and I am a [NYU Tandon](https://engineering.nyu.edu/)
-student majoring in Computer Science. I currently work on
+My name is Neel Chauhan and I am a Software Egineer at
+[Microsoft](https://www.microsoft.com/en-us/) working on
+[Workplace Analytics](https://www.microsoft.com/microsoft-365/partners/workplaceanalytics). I previously worked at
 [CacheCash](https://ssl.engineering.nyu.edu/projects#cachecash) and
-[Lind](https://ssl.engineering.nyu.edu/projects#lind) at Tandon, and
-[NYU CUSP](https://cusp.nyu.edu/)'s Urban Modelling Group.
+[NYU CUSP](https://cusp.nyu.edu/), and graduated
+from [NYU Tandon](https://engineering.nyu.edu/) in Computer Science.
 
 In my spare time, I am a contributor to [Tor](https://www.torproject.org/)
-and [FreeBSD Ports](https://www.freebsd.org/ports/).
+and [FreeBSD](https://www.freebsd.org/).
 
 To get in contact with me, my email is: neel **at** neelc **dot** org.
 
