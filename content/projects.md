@@ -25,8 +25,8 @@ seen at
 # The FreeBSD Project (2014-Present)
 
 [FreeBSD](https://www.freebsd.org/) is a general-purpose Unix-like operating
-system derived from UC Berkeley's Berkeley Software Distribution. I have been
-a FreeBSD user since 2012 and contributor since 2014.
+system derived from UC Berkeley's 4.4BSD. I have been a FreeBSD user since 2012
+and contributor since 2014.
 
 [FreeBSD Ports](https://www.freebsd.org/ports/) is
 [FreeBSD's](https://www.freebsd.org/) package management system. This is
@@ -35,10 +35,10 @@ similar to other tools like Debian's `apt-get` and Node's `npm`.
 I maintain Ports and a list is available at
 [FreshPorts](https://www.freshports.org/search.php?stype=maintainer&method=exact&query=neel@neelc.org).
 
-I am also a contributor to the FreeBSD kernel. I wrote patches to add support
-for Intel's Whiskey Lake platform, and have also tested other patches for
-page mapping and Synaptics touchpad support. Commits I worked or helped on
-can be seen at
+I am also a contributor to the FreeBSD kernel. I wrote patches for the
+networking and firewall (IPFW) stack, to add support for Intel's Whiskey Lake
+platform, and have tested other patches. Commits I worked on or helped
+test can be seen at
 [FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&repository%5B%5D=src&sort=commit_date).
 
 # Miscellaneous Personal Software Projects
