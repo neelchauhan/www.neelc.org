@@ -28,7 +28,7 @@ seen at
 
 [FreeBSD](https://www.freebsd.org/) is a general-purpose Unix-like operating
 system derived from UC Berkeley's 4.4BSD. I have been a FreeBSD user since 2012
-and contributor since 2014.
+and contributor since 2014 in various areas.
 
 My current focus is the FreeBSD networking and firewall (IPFW) stack. I helped
 make IPFW NAT aware of [RFC 6598](https://tools.ietf.org/html/rfc6598) (Carrier
@@ -39,10 +39,10 @@ Intel's Whiskey Lake platform, and tested patches for ACPI and certain Intel
 Wi-Fi adapters.
 
 Previously, I have also been a [FreeBSD Ports](https://www.freebsd.org/ports/)
-maintainer.
+maintainer from 2014 to 2020.
 
 Commits I worked on or helped test can be seen at
-[FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date)
+[FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date).
 
 # Previous
 
