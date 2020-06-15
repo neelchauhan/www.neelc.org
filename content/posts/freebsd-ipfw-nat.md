@@ -26,10 +26,6 @@ First, you need the `ipfw` and `ipfw_nat` kernel modules. To load them, run:
 
     kldload ipfw ipfw_nat
 
-To enable this at boot, put the following in `/etc/rc.conf`:
-
-    kld_list="ipfw ipfw_nat"
-
 Then, you need a firewall ruleset. A basic ruleset is as follows:
 
     #!/bin/sh
@@ -37,8 +33,8 @@ Then, you need a firewall ruleset. A basic ruleset is as follows:
     ipfw -q flush
 
     ipfw nat 1 config if fxp0 redirect_port tcp 192.168.1.10:9001 9001
-    ipfw add 100 nat 1 ip from any to me in via fxp0
-    ipfw add 200 nat 1 ip from 192.168.1.0/24 to any out via fxp0
+    ipfw add 100 nat 1 ip4 from any to me in via fxp0
+    ipfw add 200 nat 1 ip4 from 192.168.1.0/24 to any out via fxp0
     ipfw add allow ip from any to any
 
 This setup sets up NAT with `fxp0` as the WAN interface, and sets up a port
