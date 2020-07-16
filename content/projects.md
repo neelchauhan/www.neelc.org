@@ -46,26 +46,15 @@ Commits I worked on or helped test can be seen at
 
 # Previous
 
-## Lind (2019, NYU)
+## NYU Tandon Projects
 
-[Lind](https://github.com/Lind-Project/lind_project) is a
-[NYU Tandon](https://engineering.nyu.edu/) research project developing a
-single-process sandbox with a POSIX-compatible API. My work with Lind has
-mostly focused on the Docker build process, and adding unit tests for POSIX
-system calls. As I have graduated NYU, I am no longer involved in this project.
+Keep in mind that I am no longer involved with these projects as I have
+graduated NYU.
 
-My Lind commits can be seen at
-[GitHub](https://github.com/Lind-Project/lind_project/commits?author=neelchauhan).
+ * [Lind](https://github.com/Lind-Project/lind_project)
 
-## Docker at NYU Tandon (2019, NYU)
+ * ["Docker for Education"](https://github.com/gcallah/docker-for-ed/commits?author=neelchauhan) (not affiliated with Docker, Inc)
 
-As an NYU project, I have worked to maintain and improve Docker images used
-in NYU Tandon Computer Science courses. These include updating images to use
-newer software, adding a Docker test infrastructure, and improving the build
-process. As I have graduated NYU, I am no longer involved in this project.
-
-These commits can be seen at
-[GitHub](https://github.com/gcallah/docker-for-ed/commits?author=neelchauhan).
 
 ## Miscellaneous Personal Software Projects
 
