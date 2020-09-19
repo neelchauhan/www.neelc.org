@@ -31,3 +31,12 @@ time. But in the case of the HP T730, just stick with Broadcom for this one.
 If you had success (or failure) on the HP T730 with a Broadcom (or any
 non-Intel) NIC, please tell me at neel **AT** neelc **DOT** org and I will
 (hopefully) update this article.
+
+**UPDATE:** The Broadcom/T730 setup worked well for many months with a HP T730
+on a "Gigabit" connection, albeit one with occasional slow transit/peering.
+"Genuine" Intel i340/i350 cards should work as well (from what I've read).
+
+If your ISP uses it (e.g. CenturyLink, Bell Canada, etc.), you may run into the
+`igb` bug with PPPoE queues. I never had CenturyLink or Bell, or any ISP using
+PPPoE as of writing so I can't confirm. Surprisingly, I am hoping for the
+former's FTTH offering where I move next despite PPPoE.
