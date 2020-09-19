@@ -7,7 +7,8 @@ showDate: true
 **Note:** I am using FreeBSD as the operating system in the article, but the
 information should be generic to Linux or any non-Microsoft operating system.
 This should also apply to most other current HPE ProLiant servers (as of 2019)
-other than the MicroServer.
+other than the MicroServer (**UPDATE:** Don't own one, but this should apply
+to the new MicroServer Gen10 Plus).
 
 I recently got a Xeon 4108 HPE ProLiant ML110 Gen10 to replace my MicroServer
 as a home server along with two 1TB hard drives to run in ZFS RAID.
