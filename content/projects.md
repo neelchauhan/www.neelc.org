@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-date: "2019-10-27"
+date: "2020-11-29"
 ---
 
 # Current
@@ -38,8 +38,9 @@ Outside of the networking stack, I also helped add preliminary support for
 Intel's Whiskey Lake platform, and tested patches for ACPI and certain Intel
 Wi-Fi adapters.
 
-Previously, I have also been a [FreeBSD Ports](https://www.freebsd.org/ports/)
-maintainer from 2014 to 2020.
+I also contribute to [FreeBSD Ports](https://www.freebsd.org/ports/), with a
+focus on [GNOME](https://www.gnome.org/) packages. Previously, I was a
+maintainer from 2014 to 2020, but took a break for a few months.
 
 Commits I worked on or helped test can be seen at
 [FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date).
