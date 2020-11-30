@@ -21,5 +21,3 @@ the fact that the EFI system partition wasn't formatted.
 **Solution:** To fix this issue, you need to make sure you have a FAT-formatted
 EFI system partition. This doesn't mean the EFI partition has to be mounted,
 and as of the time of posting the FreeBSD UEFI bootloader won't get loaded.
-
-
