@@ -12,7 +12,8 @@ extraction, it proceeded me to this error:
 
 ![Failed to configure bootloader error message](/images/fbsd-bl.png)
 
-I had this issue with both UFS and ZFS partitioning.
+This happened to me on a recent 13-CURRENT. I don't believe it happened on
+earlier snapshots or 12.x. I had this issue with both UFS and ZFS partitioning.
 
 After tesing on my desktop via VirtualBox EFI mode, I found out the issue was
 the fact that the EFI system partition wasn't formatted.
@@ -20,3 +21,5 @@ the fact that the EFI system partition wasn't formatted.
 **Solution:** To fix this issue, you need to make sure you have a FAT-formatted
 EFI system partition. This doesn't mean the EFI partition has to be mounted,
 and as of the time of posting the FreeBSD UEFI bootloader won't get loaded.
+
+
