@@ -1,9 +1,37 @@
 ---
 title: "Projects"
-date: "2020-11-29"
+date: "2021-01-04"
 ---
 
 # Current
+
+## The FreeBSD Project (2014-Present)
+
+[FreeBSD](https://www.freebsd.org/) is a general-purpose Unix-like operating
+system derived from UC Berkeley's 4.4BSD. I have been a FreeBSD user since 2012
+and contributor since 2014 in various areas.
+
+I am a [FreeBSD Ports](https://www.freebsd.org/ports) committer, having been a
+contributor since 2014 back in my senior year of high school.
+
+I maintain a variety of Ports, and have formerly maintained others including
+big-name titles such as [Keras](https://keras.io/). I am also a contributor to
+FreeBSD's [GNOME](https://www.gnome.org/) Ports, being a user of GNOME on
+FreeBSD myself.
+
+Outside of Ports, I'm an occasional kernel hacker, but it's not a big focus
+anymore.
+
+I briefly worked on the FreeBSD networking, firewall (IPFW), and routing stack.
+One key patch was thaat I helped make IPFW's NAT implementation aware of
+[RFC 6598](https://tools.ietf.org/html/rfc6598) (Carrier Grade NAT) subnets.
+
+I also helped add support for Intel's Whiskey Lake (8th Gen) and am currently
+aiding developers with support for Intel's Tiger Lake (11th Gen), both used in
+multiple generations of high-end PC laptops like the HP Spectre x360.
+
+Commits I was involved in can be seen at
+[FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date).
 
 ## The Tor Project (2016-Present)
 
@@ -24,26 +52,9 @@ I also run Tor relays and exits, and have done so since 2014. My relays can be
 seen at
 [Tor Relay Status](https://metrics.torproject.org/rs.html#search/NeelTor%20contact:neelc).
 
-## The FreeBSD Project (2014-Present)
-
-[FreeBSD](https://www.freebsd.org/) is a general-purpose Unix-like operating
-system derived from UC Berkeley's 4.4BSD. I have been a FreeBSD user since 2012
-and contributor since 2014 in various areas.
-
-My current focus is the FreeBSD networking and firewall (IPFW) stack. I helped
-make IPFW NAT aware of [RFC 6598](https://tools.ietf.org/html/rfc6598) (Carrier
-Grade NAT) subnets as well as optimize certain aspects of the networking stack.
-
-Outside of the networking stack, I also helped add preliminary support for
-Intel's Whiskey Lake platform, and tested patches for ACPI and certain Intel
-Wi-Fi adapters.
-
-I also contribute to [FreeBSD Ports](https://www.freebsd.org/ports/), with a
-focus on [GNOME](https://www.gnome.org/) packages. Previously, I was a
-maintainer from 2014 to 2020, but took a break for a few months.
-
-Commits I worked on or helped test can be seen at
-[FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date).
+I was very active in Tor development during my college days. I have since
+re-focused on FreeBSD post-graduation, but still put out an occasional Tor
+patch here and there. I also still run relays.
 
 # Previous
 
@@ -55,7 +66,6 @@ graduated NYU.
  * [Lind](https://github.com/Lind-Project/lind_project)
 
  * ["Docker for Education"](https://github.com/gcallah/docker-for-ed/commits?author=neelchauhan) (not affiliated with Docker, Inc)
-
 
 ## Miscellaneous Personal Software Projects
 
