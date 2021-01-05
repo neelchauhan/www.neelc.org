@@ -13,7 +13,7 @@ My name is Neel Chauhan and I am a Software Egineer at
 [NYU Tandon](https://engineering.nyu.edu/) in Computer Science.
 
 In my spare time, I like to hack on [FreeBSD](https://www.freebsd.org/)
-[Ports](https://www.freebsd.org/ports/). I am a Ports committer myself.
+[Ports](https://www.freebsd.org/ports/), being a Ports committer myself.
 I am also a contributor to [Tor](https://www.torproject.org/).
 
 To get in contact with me, my personal email is: neel **at** neelc **dot** org.
