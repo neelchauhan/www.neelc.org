@@ -23,7 +23,7 @@ Outside of Ports, I'm an occasional kernel hacker, but it's not a big focus
 anymore.
 
 I briefly worked on the FreeBSD networking, firewall (IPFW), and routing stack.
-One key patch was thaat I helped make IPFW's NAT implementation aware of
+One key patch was that I helped make IPFW's NAT implementation aware of
 [RFC 6598](https://tools.ietf.org/html/rfc6598) (Carrier Grade NAT) subnets.
 
 I also helped add support for Intel's Whiskey Lake (8th Gen) and am currently
