@@ -30,8 +30,11 @@ I also helped add support for Intel's Whiskey Lake (8th Gen) and am currently
 aiding developers with support for Intel's Tiger Lake (11th Gen), both used in
 multiple generations of high-end PC laptops like the HP Spectre x360.
 
-Commits I was involved in can be seen at
-[FreshBSD](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date).
+Commits I was involved in can be seen at:
+
+ * [FreshBSD since 2021](https://freshbsd.org/search?project[]=freebsd&q=nc&sort=commit_date)
+
+ * [FreshBSD pre-2021](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date)
 
 ## The Tor Project (2016-Present)
 
