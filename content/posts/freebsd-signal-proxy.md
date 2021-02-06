@@ -150,4 +150,4 @@ While the official Signal instructions are very Docker-centric for the tech
 part, it does have other useful information on sharing the proxy securely.
 This means I won't duplicate the information here.
 
-[Here's the subsection about sharing the Signal proxy](https://signal.org/blog/help-iran-reconnect/#iranasignalproxy).
+[Here's the subsection on Signal's website on sharing the proxy](https://signal.org/blog/help-iran-reconnect/#iranasignalproxy).
