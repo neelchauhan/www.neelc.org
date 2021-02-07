@@ -19,16 +19,15 @@ big-name titles such as [Keras](https://keras.io/). I am also a contributor to
 FreeBSD's [GNOME](https://www.gnome.org/) Ports, being a user of GNOME on
 FreeBSD myself.
 
-Outside of Ports, I'm an occasional kernel hacker, but it's not a big focus
-anymore.
+Outside of Ports, I'm an occasional kernel hacker.
 
-I briefly worked on the FreeBSD networking, firewall (IPFW), and routing stack.
-One key patch was that I helped make IPFW's NAT implementation aware of
+I worked on the FreeBSD networking, firewall, and routing stack. One key
+set of patches was that I helped make IPFW's NAT implementation aware of
 [RFC 6598](https://tools.ietf.org/html/rfc6598) (Carrier Grade NAT) subnets.
 
-I also helped add support for Intel's Whiskey Lake (8th Gen) and am currently
-aiding developers with support for Intel's Tiger Lake (11th Gen), both used in
-multiple generations of high-end PC laptops like the HP Spectre x360.
+I also helped add support for Intel's Whiskey Lake (8th Gen) and Tiger Lake
+(11th Gen), both used in multiple generations of high-end PC laptops like the
+HP Spectre x360.
 
 Commits I was involved in can be seen at:
 
