@@ -4,7 +4,8 @@ date: 2021-02-22T20:00:00-08:00
 showDate: true
 ---
 
-A month or so ago, I saw this ad in front of my Seattle apartment:
+A month or so ago, I saw this ad in front of my Seattle apartment
+(neighborhood: Capitol Hill):
 
 ![CenturyLink Ad in front of my building](/images/cl-ad.jpg)
 
