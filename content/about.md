@@ -5,7 +5,7 @@ date: "2019-10-27"
 
 Hi!
 
-My name is Neel Chauhan and I am a Software Egineer at
+My name is Neel Chauhan and I am a Software Engineer at
 [Microsoft](https://www.microsoft.com/en-us/) working on
 [Workplace Analytics](https://www.microsoft.com/microsoft-365/partners/workplaceanalytics). I previously worked at
 [CacheCash](https://ssl.engineering.nyu.edu/projects#cachecash) and
