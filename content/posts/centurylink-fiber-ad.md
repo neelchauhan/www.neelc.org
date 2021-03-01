@@ -38,6 +38,14 @@ While I'm no telecom lawyer (I'm a software engineer by trade), below, I have
 collected a few facts about why phone companies haven't upgraded to fiber when
 they were supposed to in the 1990s.
 
+**UPDATE 1:** The UTC has denied my complaint saying that they don't regulate
+broadband. The AG has forwarded my complaint to CenturyLink.
+
+I have also complained about these ads to the FCC, and may in fact pay to do a
+"formal" complaint (but am not sure yet). Not because I can't get symmetrical
+Gigabit (I can), but more to set a higher regulatory precedent. Maybe we'll
+get fiber everywhere. Or at least ISPs have to be honest with ads.
+
 # Digging Deeper
 
 But if you dig deeper, the predecessors to our modern phone companies who
@@ -50,7 +58,7 @@ as ILECs, or **Incumbent Local Exchange Carriers**) deregulation and price
 increases for the supposed "fiber optic" future that never came. On top of
 that, in 2001
 [the FCC adopted a 75/25 accounting rule](http://irregulators.org/irregulators-big-win-we-freed-the-states-from-the-fcc/),
-which let the ULECs put in expenses for their other lines of businesses as
+which let the ILECs put in expenses for their other lines of businesses as
 local service expenses. This lets ILECs claim wired service is "unprofitable"
 while giving a free ride to unregulated businesses like wireless, tech,
 entertainment, et al, and on top of that getting more deregulation.
