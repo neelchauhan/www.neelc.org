@@ -1,6 +1,6 @@
 ---
 title: "Tuning Power Consumption on FreeBSD Laptops and Intel Speed Shift (6th Gen and Later)"
-date: 2021-10-21T20:00:00-08:00
+date: 2021-10-21T20:00:00-07:00
 showDate: true
 ---
 
