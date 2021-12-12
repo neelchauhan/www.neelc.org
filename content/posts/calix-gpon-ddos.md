@@ -1,6 +1,6 @@
 ---
 title: "How To DoS and Take Down Your GPON Fiber Modem/ONT with Small Packets"
-date: 2021-10-21T20:00:00-07:00
+date: 2021-12-11T22:00:00-08:00
 showDate: true
 ---
 
