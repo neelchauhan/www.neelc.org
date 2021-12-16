@@ -4,6 +4,9 @@ date: 2021-12-11T22:00:00-08:00
 showDate: true
 ---
 
+**UPDATE:** CenturyLink contacted Calix and it seems the limiting of TCP
+sessions is intentional. [This isn't right](/posts/calix-gpon-dos-part-2/).
+
 When I moved neighborhoods in Seattle, I learned my new address had CenturyLink
 Fiber. I was initially excited, but the excitement wore off when I learned when
 I run a Tor relay on CL, it gave latency spikes. This can become severe based
