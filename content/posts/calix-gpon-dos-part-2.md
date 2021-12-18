@@ -106,7 +106,7 @@ To what I know, other ONT vendors such as Nokia, Commscope, Adtran, and Huawei
 don't have this "feature". They just foward packets without limiting the number
 of sessions.
 
-In many ways, Calix is *worse* and Huawei and ZTE thanks to this "feature".
+In many ways, Calix is *worse* than Huawei and ZTE thanks to this "feature".
 If I were responsible for building a fiber network and had to choose between
 Huawei and Calix, I'd pick Huawei. ZTE versus Calix and I'd pick ZTE. And I'd
 stick with this unless Calix removes this "feature" which clearly is mucking
