@@ -34,7 +34,7 @@ Comment out the `hint.uart.0.at` and `hint.uart.1.at` lines.
 
 This will fix the issue across reboots.
 
-I am running pfSense CE 2.5.2 on my t740 without issues [3] after doing thr
+I am running pfSense CE 2.5.2 on my t740 without issues [3] after doing the
 steps above.
 
 # Footnotes (read: Personal tidbits)
