@@ -39,7 +39,7 @@ steps above.
 
 # Footnotes (read: Personal tidbits)
 
-Feel free to ignore if you're unintetested.
+Feel free to ignore if you're uninterested.
 
 [1] - Yes, I previously had "complaints" against CenturyLink, but it turned out
 to be the crappy Calix 716GE-I R2 ONT limiting myself to 16384 TCP sessions.
