@@ -70,7 +70,7 @@ The values of this is that:
  * `50` is a "balance" (default)
  * `100` is "maximum power savings"
 
-I keep `dev.hwpstate_intel.*" at `100` which I recommend for a laptop, but it's
+I keep `dev.hwpstate_intel.*` at `100` which I recommend for a laptop, but it's
 optional.
 
 # CURRENT notes
