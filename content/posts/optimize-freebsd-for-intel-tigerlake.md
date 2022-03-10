@@ -24,7 +24,7 @@ If you want accelerated graphics, as of March 2022, you need to run
 
 For graphics, while `drm-kmod` from Ports "works", at the time of writing the
 best performance and stability comes with the
-[GitHub `master` branch of drm-kmod](https://github.com/freebsd/drm-kmod)
+[GitHub `master` branch of `drm-kmod`](https://github.com/freebsd/drm-kmod)
 which as of writing is at Linux 5.8.
 
 When `14.0-RELEASE` comes out, it should work fine for TigerLake, maybe even
