@@ -19,6 +19,9 @@ there are a few things to keep in mind. These are:
 
 # On TigerLake, go CURRENT for graphics (As of March 2022)
 
+**UPDATE:** This section is obsolete, as of April 2022 `13.1-RC2` works with
+`drm-kmod` from GitHub if you use the 5.9 branch.
+
 If you want accelerated graphics, as of March 2022, you need to run
 `14-CURRENT` branch, or maybe `13-STABLE` (which I haven't tested). 
 
