@@ -98,13 +98,56 @@ Next, we need to edit `/etc/nsswitch.conf`. In this file, change these two lines
     group: files winbind
     passwd: files winbind
 
-Now, we edit the PAM configuration. Edit `/etc/pam.d/system` and
-`/etc/pam.d/sshd` and add these lines in the respective sections:
+Now, we edit the PAM configuration. Edit `/etc/pam.d/system` to look like this:
 
-    auth		sufficient	/usr/local/lib/pam_winbind.so
-    account		sufficient	/usr/local/lib/pam_winbind.so
-    session		required	/usr/local/lib/pam_mkhomedir.so
-    password		sufficient	/usr/local/lib/pam_winbind.so
+    auth            sufficient      pam_opie.so             no_warn no_fake_prompts
+    auth            requisite       pam_opieaccess.so       no_warn allow_local
+    auth            sufficient      /usr/local/lib/pam_winbind.so
+    #auth           sufficient      pam_krb5.so             no_warn try_first_pass
+    #auth           sufficient      pam_ssh.so              no_warn try_first_pass
+    auth            required        pam_unix.so             no_warn try_first_pass nullok
+
+    # account
+    account         sufficient      /usr/local/lib/pam_winbind.so
+    #account        required        pam_krb5.so
+    account         required        pam_login_access.so
+    account         required        pam_unix.so
+    
+    # session
+    session         required        /usr/local/lib/pam_mkhomedir.so
+    #session        optional        pam_ssh.so              want_agent
+    session         required        pam_lastlog.so          no_fail
+    
+    # password
+    password        sufficient      /usr/local/lib/pam_winbind.so
+    #password       sufficient      pam_krb5.so             no_warn try_first_pass
+    password        required        pam_unix.so             no_warn try_first_pass
+
+Then change `/etc/pam.d/sshd` to look like this:
+
+    auth            sufficient      pam_opie.so             no_warn no_fake_prompts
+    auth            requisite       pam_opieaccess.so       no_warn allow_local
+    auth            sufficient      /usr/local/lib/pam_winbind.so
+    #auth           sufficient      pam_krb5.so             no_warn try_first_pass
+    #auth           sufficient      pam_ssh.so              no_warn try_first_pass
+    auth            required        pam_unix.so             no_warn try_first_pass
+    
+    # account
+    account         sufficient      /usr/local/lib/pam_winbind.so
+    account         required        pam_nologin.so
+    #account        required        pam_krb5.so
+    account         required        pam_login_access.so
+    account         required        pam_unix.so
+    
+    # session
+    session         required        /usr/local/lib/pam_mkhomedir.so
+    #session        optional        pam_ssh.so              want_agent
+    session         required        pam_permit.so
+    
+    # password
+    password        sufficient      /usr/local/lib/pam_winbind.so
+    #password       sufficient      pam_krb5.so             no_warn try_first_pass
+    password        required        pam_unix.so             no_warn try_first_pass
 
 You can also add these to other `/etc/pam.d` files if you desire AD login
 support from other parts of the system (e.g. X11, VPN, etc.).
