@@ -4,6 +4,10 @@ date: 2021-12-11T22:00:00-08:00
 showDate: true
 ---
 
+**UPDATE 2:** This article is inaccurate. The real issue is another feature
+called **Broadcom Packet Flow Cache** which puts a hard limit of 16384 TCP
+sessions on the 716GE-I R2. Other ONTs do not have this issue.
+
 **UPDATE:** CenturyLink contacted Calix and it seems the limiting of TCP
 sessions is intentional. [This isn't right](/posts/calix-gpon-dos-part-2/).
 

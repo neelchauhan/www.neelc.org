@@ -4,6 +4,10 @@ date: 2021-12-16T11:00:00-08:00
 showDate: true
 ---
 
+**UPDATE:** This article is inaccurate. The real issue is another feature
+called **Broadcom Packet Flow Cache** which puts a hard limit of 16384 TCP
+sessions on the 716GE-I R2. Other ONTs do not have this issue.
+
 When I moved neighborhoods within Seattle, I subscribed to CenturyLink's
 fiber-to-the-home, just to learn there was a severe "latency spike" issue when
 running Tor. I initially blamed them, while they blamed me in the typcal ISP
