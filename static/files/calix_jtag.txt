@@ -1,0 +1,197 @@
+HELO
+CPUI
+L1CI
+PLLI
+PMCB
+HELO
+CPUI
+L1CI
+4.1605xponpatch2-12.2.21-118.5
+DRAM
+----
+PHYS
+ZQDN
+PHYE
+DINT
+TST1
+TST2
+PASS
+----
+ZBSS
+L12F
+MAIN
+FPS0
+S004
+B004
+0001
+S005
+B005
+0257
+NAN3
+RFS2
+NAN5
+
+
+Base: 4.16_05xponpatch2
+CFE version 12.2.21-118.5 for BCM96838 (32bit,SP,BE)
+Build Date: Tue May  9 13:42:05 CDT 2017 (swbuild@min-premcov)
+Copyright (C) 2000-2015 Broadcom Corporation.
+
+Boot Strap Register:  0x800078ff
+Chip ID: BCM68385C_B0, MIPS: 240MHz, DDR: 333MHz, Bus: 240MHz
+RDP: 600MHz
+Main Thread: TP0
+Total Memory: 268435456 bytes (256MB)
+Boot Address: 0xbfc00000
+
+NAND ECC BCH-4, page size 0x800 bytes, spare size used 64 bytes
+NAND flash device: MXIC MX30LF1G18AC, id 0xc2f1 block 128KB size 131072KB
+Board IP address                  : 192.168.1.1:ffffff00  
+Host IP address                   : 192.168.1.100  
+Gateway IP address                :   
+Run from flash/host/tftp (f/h/c)  : f  
+Default host run file name        : vmlinux  
+Default host flash file name      : bcm963xx_fs_kernel  
+Boot delay (0-9 seconds)          : 1  
+Boot image (0=latest, 1=previous) : 0  
+Default host ramdisk file name    :   
+Default ramdisk store address     :   
+Board Id (0-15)                   : 803GP  
+Number of MAC Addresses (1-32)    : 3  
+Base MAC Address                  : 44:65:7f:81:xx:xx  
+PSI Size (1-128) KBytes           : 64  
+Enable Backup PSI [0|1]           : 0  
+System Log Size (0-256) KBytes    : 0  
+Auxillary File System Size Percent: 0  
+Main Thread Number [0|1]          : 0  
+GPON Serial Number                : "CXNK0065xxxx"  
+GPON Password                     : "          "  
+MC memory allocation (MB)         : 4  
+TM memory allocation (MB)         : 20  
+DHD 0 memory allocation (MB)      : 0  
+DHD 1 memory allocation (MB)      : 0  
+DHD 2 memory allocation (MB)      : 0  
+WLan Feature                      : 0x00  
+Voice Board Configuration (0-2)   : LE9540  
+Partition 1 Size (MB)             : 0M  
+Partition 2 Size (MB)             : 0M  
+Partition 3 Size (MB)             : 0M  
+Partition 4 Size (MB) (Data)      : 0M 
+
+enable IH Wan-Wan forwarding...
+data_path_go Done!!
+Creating CPU ring for queue number 0 with 32 packets descriptor=0x80a7f728
+ Done initializing Ring 0 Base=0xa2615240K End=0xa2615440K calculated entries= 32 RDD Base=0x02615240K descriptor=0x80a7f728
+Open PHY 1 on MAC 0 : link state = Down
+*** Press any key to stop auto run (1 seconds) ***
+Auto run second count down: 111
+CFE> web info: Waiting for connection on socket 0.[J
+CFE> ?
+Invalid command: "?"
+Available commands: x, find, comp, fb, dn, phy, sm, dm, db, dh, dw, w, e, ws, r, p, c, i, a, ngx, b, reset, pmdio, spi, force, led, memtest, help
+
+*** command status = -1
+CFE> help
+Available commands:
+
+x                   Change extra partitions size
+find                Find string in NAND
+comp                Compare NAND blocks
+fb                  Find NAND bad blocks
+dn                  Dump NAND contents along with spare area
+phy                 Set memory or registers.
+sm                  Set memory or registers.
+dm                  Dump memory or registers.
+db                  Dump bytes.
+dh                  Dump half-words.
+dw                  Dump words.
+w                   Write the whole image start from beginning of the flash
+e                   Erase NAND flash
+ws                  Write whole image (priviously loaded by kermit or JTAG) to flash .
+r                   Run program from flash image or from host depend on [f/h] flag
+p                   Print boot line and board parameter info
+c                   Change booline parameters
+i                   Erase persistent storage data
+a                   Change board AFE ID
+ngx                 Change Calix board parameters
+b                   Change board parameters
+reset               Reset the board
+pmdio               Pseudo MDIO access for external switches.
+spi                 Legacy SPI access of external switch.
+force               override chipid check for images.
+led                 verify shift-register LED
+memtest             Test memory.
+help                Obtain help for CFE commands
+
+For more information about a command, enter 'help command-name'
+*** command status = 0
+CFE> b
+Press:  <enter> to use current value
+        '-' to go previous parameter
+        '.' to clear the current value
+        'x' to exit this command
+844G-1_SG                  ------ 0 
+844G-2_SG                  ------ 1 
+854G-1_SG                  ------ 2 
+854G-2_SG                  ------ 3 
+844E-1                     ------ 4 
+844E-2                     ------ 5 
+844GE-1                    ------ 6 
+844GE-2                    ------ 7 
+801GP                      ------ 8 
+803GP                      ------ 9 
+812G-1                     ------ 10
+812G-2                     ------ 11
+813G-1                     ------ 12
+813G-2                     ------ 13
+716GE                      ------ 14
+818G                       ------ 15
+Board Id (0-15)                   :  9  PHY 0 on MAC 0 : link state = Down
+PHY 0 on MAC 0 : link state = Down
+PHY 0 on MAC 0 : link state = Down
+PHY 0 on MAC 0 : link state = Down
+
+Number of MAC Addresses (1-32)    :  3  
+Base MAC Address                  :  44:65:7f:81:xx:xx  
+PSI Size (1-128) KBytes           :  64  
+Enable Backup PSI [0|1]           :  0  
+System Log Size (0-256) KBytes    :  0  
+Auxillary File System Size Percent:  0  
+Main Thread Number [0|1]          :  0  
+MC memory allocation (MB)         :  4  
+TM memory allocation (MB)         :  20  
+DHD 0 memory allocation (MB)      :  0  
+DHD 1 memory allocation (MB)      :  0  
+DHD 2 memory allocation (MB)      :  0  
+
+Press:  <enter> to use current value
+        '-' to go previous parameter
+        '.' to clear the current value
+        'x' to exit this command
+GPON Serial Number                :  CXNK0065xxxx  
+GPON Password                     :              
+
+Press:  <enter> to use current value
+        '-' to go previous parameter
+        '.' to clear the current value
+        'x' to exit this command
+WLan Feature                      :  0x00  
+
+Press:  <enter> to use current value
+        '-' to go previous parameter
+        '.' to clear the current value
+        'x' to exit this command
+NOSLIC           -- 0 
+LE9540           -- 1 
+LE9541           -- 2 
+Voice Board Configuration (0-2)   :  1  
+Press:  <enter> to use current value
+        '-' to go previous parameter
+        '.' to clear the current value
+        'x' to exit this command
+Partition 1 Size (MB)             :  0M  
+Partition 2 Size (MB)             :  0M  
+Partition 3 Size (MB)             :  0M  
+Partition 4 Size (MB) (Data)      :  0M  
+*** command status = 0
+CFE> 
