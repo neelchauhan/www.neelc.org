@@ -30,11 +30,17 @@ To solve the issue, at the boot prompt, hit `ESC`, and the enter:
 After you install, but before rebooting, open a post-installation shell, and
 run:
 
-    vi /boot/device.hints
+    vi /boot/loader.conf.local
 
-Comment out the `hint.uart.0.at` and `hint.uart.1.at` lines.
+Add these two lines:
 
-This will fix the issue across reboots.
+    hint.uart.0.disabled="1"
+    hint.uart.1.disabled="1"
+
+This will fix the issue across reboots **and firmware upgrades on
+pfSense/OPNsense**. Thanks, Ed Gonzales for reporting my old "solution" didn't
+work across firmware upgrades. That explained why my OPNsense box suddenly
+stopped working after an upgrade (New section, Septemper 11, 2022).
 
 I have run pfSense CE 2.5.2 and am currently running OPNsense 22.1 on my t740
 without issues after doing the steps above.
