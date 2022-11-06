@@ -20,6 +20,8 @@ To get in contact with me, my personal email is: neel **at** neelc **dot** org.
 
 If you are contacting me about FreeBSD, use: nc **at** FreeBSD **dot** org.
 
+I am on the Fediverse at [@neel@neelc.org](https://mastodon.neelc.org/@neel).
+
 I am also available on [GitHub](https://github.com/neelchauhan/),
 [Twitter](https://twitter.com/_neelc/),
 or [LinkedIn](https://linkedin.com/in/neelc-tor).
