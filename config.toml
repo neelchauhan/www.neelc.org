@@ -1,31 +1,46 @@
 baseURL = "https://www.neelc.org/"
 languageCode = "en-us"
 title = "Neel Chauhan"
-theme = "manis"
+theme = "beautifulhugo"
 publishDir = "/srv/www/www.neelc.org/"
 copyright = "&copy; 2023 Neel Chauhan"
-paginate = 10
-pygmentsCodeFences = true
+pygmentsStyle = "trac"
 pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
-[params]
-    homepage = "homepage"
-    author = "Neel Chauhan"
-    description = "Neel's personal website."
-    mainSections = ["posts"]
-    email = "neel@neelc.org"
-    github = "https://github.com/neelchauhan/"
-    twitter = "https://twitter.com/_neelc"
+[Params]
+  mainSections = ["posts"]
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+
+[Author]
+  name = "Neel Chauhan"
+  website = "neelc.org"
+  email = "neel@neelc.org"
+  github = "neelchauhan"
+  linkedin = "neelc-tor"
+  reddit = "FreeBSDfan"
+  twitter = "_neelc"
+  mastodon = "https://mastodon.neelc.org/@neel"
 
 [menu]
-     [[menu.main]]
-        name = "posts"
-        url = "/posts/"
-	
-    [[menu.main]]
-        name = "projects"
-        url = "/projects"
+   [[menu.main]]
+    name = "posts"
+    url = "/posts/"
 
-    [[menu.main]]
-        name = "about"
-        url = "/about"
+  [[menu.main]]
+    name = "projects"
+    url = "/projects"
+
+  [[menu.main]]
+    name = "about"
+    url = "/about"
