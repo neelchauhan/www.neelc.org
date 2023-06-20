@@ -58,5 +58,5 @@ Or we may just rebuild centralized platforms on top of ActivityPub 😭.
 
 I don't know how ActivityPub-based platforms will fare, maybe they'll become
 another Usenet (which is now mostly piracy). Or maybe they will become another
-Email, which stayed reailient, but we've also seen email centralize around
+Email, which stayed resilient, but we've also seen email centralize around
 Google and Microsoft.
