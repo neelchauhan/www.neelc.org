@@ -25,8 +25,11 @@ command on the iLO "Redfish" API:
 Replace `ILO_IP` with the iLO IP address and `ILO_USER` with the iLO Administrator
 (usually `Administrator` but for me I add a `neel` account).
 
-You can also replace the `50` with a higher or lower value to make it louder
-or quieter respectively, but don't go so quiet to make your server overheat.
+~~You can also replace the `50` with a higher or lower value to make it louder
+or quieter respectively, but don't go so quiet to make your server overheat.~~
+HPE Redfish works a bit differently than what us humans are used to. Setting
+the number to `50` would make the server with 50% *less* fan noise, while `25`
+would mean normal fan noise (the default) and `0` means 50% *more* fan noise.
 
 After that, the server is pretty quiet, whether the closet is open or shut.
 
