@@ -14,7 +14,7 @@ accounts, having a trans brother, and being non-binary and aromantic myself.
 Pre-Elon Musk, I used to look up to Twitter as a company. Now, Twitter is a
 dumpster fire. The posts aren't even high quality, just "low effort" garbage.
 
-The only reason why I didn't nuke the account is because my
+The only reason why I won't nuke the account is because my
 [DuckDNS](http://www.duckdns.org/) dynamic DNS login is tied to Twitter. That
 only because Reddit login was nuked ages ago (well before the infamous API
 changes).
