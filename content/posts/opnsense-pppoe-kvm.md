@@ -54,15 +54,18 @@ also work since it's the same Linux kernel. I haven't tested other operating
 systems or hypervisors, but it hopefully should be multithreaded there too.
 
 There is one disasvantage if you are virtualizing FreeBSD on KVM: the KVM host
-*will* use a lot of CPU usage, more than what FreeBSD will show. FreeBSD is
+*will* use a lot of CPU usage, more than what FreeBSD will show. ~~FreeBSD is
 poorly optimized for KVM, which kinda [reminds me of MS-DOS and Windows 9x/ME
 with no idle states whatsoever](https://superuser.com/questions/369388/cpu-running-at-full-capacity-when-boot-to-dos),
-just a lot more subtle.
+just a lot more subtle.~~ I tried MikroTik CHR, and it also has high PPPoE CPU
+usage, but unlike OPNsense has no option (that I know of) to balance PPPoE
+traffic. The host CPU could be PPPoE processing, IP routing, `virtio`, or
+something else I don't know about.
 
 ![KVM CPU Usage off the roof](/images/cl-ppp-kvm-cpu.png)
 
 Crap, high CPU usage thanks to speedtests.
 
 But regardless, it's still better than putting everything on CPU 0. Just that
-if you have multi-Gigabit XGS-PON PPPoE (e.g. Bell Canada, maybe NTT OCN),
-you'll probably have to stock up on CPU cores.
+if you have multi-Gigabit XGS-PON/10G-EPON PPPoE (e.g. Bell Canada, UTOPIA, NTT
+OCN), you'll have to stock up on CPU cores.
