@@ -33,7 +33,7 @@ The `systemd` service will also automatically be configured.
 
 If you want FAHControl, you will need to open a terminal and run:
 
-    # sudo folding-at-home-fcole90.FAHControl
+    $ sudo folding-at-home-fcole90.FAHControl
 
 Yes, you will have to run that command when you want FAHControl, as it isn't
 in my GNOME menu.
