@@ -72,7 +72,7 @@ There are a few things to keep in mind with this setup:
  * Host CPU usage will be higher than the guest
   - Fortunately, it's via multiple threads (via `htop`)
  * You should disable IPv4 and IPv6 on the PPPoE WAN interface
- * If your ISP uses 6rd and you wish to use it, as I do with CenturyLink in Seattle, DO NOT USE Linux-based firewall like OpenWrt, CHR or VyOS.
+ * If your ISP uses 6rd and you wish to use it, as I do with CenturyLink in Seattle, DO NOT USE Linux-based firewalls like OpenWrt, CHR or VyOS.
   - This is because 6rd on Linux-based routers is SLOW when compared to FreeBSD.
   - However, a Linux host OS will be fine.
 
