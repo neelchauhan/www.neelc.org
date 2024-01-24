@@ -22,12 +22,12 @@ My Tor commits can be seen at
 [Tor's GitWeb](https://gitweb.torproject.org/tor.git/log/?qt=author&q=Neel+Chauhan) and
 [GitLab](https://gitlab.torproject.org/tpo/core/arti/-/commits/main?author=Neel%20Chauhan).
 
-More recently, I focused on documentation, which can be seen
+I've also contributed to documentation, which can be seen
 [here](https://gitlab.torproject.org/users/neel/activity).
 
 I also run Tor relays and exits, and have done so since 2014. My relays can be seen at
 [Tor Relay Status](https://metrics.torproject.org/rs.html#search/NeelTor%20contact:neelc).
-I am a top Tor exit relay operator, with 2.5-5% of total exit capacity.
+I am a top Tor exit relay operator, with ~1.5% of total exit capacity.
 
 # Previous
 
