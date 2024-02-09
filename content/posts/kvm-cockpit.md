@@ -1,6 +1,6 @@
 ---
 title: "An underrated ESXi/Proxmox alternative: Rocky Linux, KVM and Cockpit"
-date: 2024-02-04T13:25:00-08:00
+date: 2024-02-08T20:30:00-08:00
 showDate: true
 ---
 
