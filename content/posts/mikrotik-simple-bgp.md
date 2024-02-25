@@ -1,5 +1,5 @@
 ---
-title: "A Simple MikroTik RouterOS V7 BGP Config"
+title: "A Simple MikroTik RouterOS v7 BGP Config"
 date: 2024-02-04T13:25:00-08:00
 showDate: true
 ---
