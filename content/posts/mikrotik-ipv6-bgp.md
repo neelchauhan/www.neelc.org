@@ -5,7 +5,7 @@ showDate: true
 ---
 
 As my long-awaited sequel to
-[my MikroTik RouterOS v7 BGP configuration](posts/mikrotik-simple-bgp/), I will
+[my MikroTik RouterOS v7 BGP configuration](/posts/mikrotik-simple-bgp/), I will
 do a RouterOS v7 configuration, but this time with IPv6.
 
 The setup will have:
