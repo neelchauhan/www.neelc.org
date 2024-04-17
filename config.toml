@@ -29,7 +29,7 @@ pygmentsCodefencesGuessSyntax = true
   github = "neelchauhan"
   linkedin = "neelc-tor"
   reddit = "FreeBSDfan"
-  mastodon = "https://mastodon.neelc.org/@neel"
+  mastodon = "https://social.monoxide.network/neel"
 
 [menu]
    [[menu.main]]
