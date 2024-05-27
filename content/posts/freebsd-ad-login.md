@@ -48,9 +48,9 @@ could change in the future.
 Then, you'll want to set up `/usr/local/etc/smb4.conf`:
 
     [global]
-    	netbios name = SYSTEM_DOMAIN_NAME
+    	netbios name = SYSTEM_HOSTNAME
     	realm = AD_DOMAIN_NAME
-    	workgroup = NETBIOS_NAME
+    	workgroup = AD_NETBIOS_NAME
     	security = ADS
     	winbind enum groups = Yes
     	winbind enum users = Yes
@@ -60,7 +60,7 @@ Then, you'll want to set up `/usr/local/etc/smb4.conf`:
     	template shell = /bin/sh
     	template homedir = /home/%U
 
-Like always, the all-caps fields should be self-explanatory.
+Like always, the all-caps fields with underscores should be self-explanatory.
 
 If you don't have a `/home` or `/usr/home` directory, make one now as `root`:
 
@@ -148,6 +148,9 @@ Then change `/etc/pam.d/sshd` to look like this:
     password        sufficient      /usr/local/lib/pam_winbind.so
     #password       sufficient      pam_krb5.so             no_warn try_first_pass
     password        required        pam_unix.so             no_warn try_first_pass
+
+**Note:** On FreeBSD 14.x or later, remove the `pam_opie.so` and
+`pam_opieaccess.so` lines as they will cause PAM issues.
 
 You can also add these to other `/etc/pam.d` files if you desire AD login
 support from other parts of the system (e.g. X11, VPN, etc.).
