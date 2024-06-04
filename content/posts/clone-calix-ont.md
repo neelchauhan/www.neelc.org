@@ -4,6 +4,18 @@ date: 2022-06-24T10:45:00-07:00
 showDate: true
 ---
 
+**UPDATE:** I now live with my brother in Stamford, CT while my family
+renovates a NYC townhouse/brownstone and right now I'll be using Frontier
+FiberOptic until the new home is ready. Frontier here uses a Nokia ONT and
+since it's an ex-AT&T area standard GPON uses 802.1X. I'm currently
+["bypassed"](https://forum.mikrotik.com/viewtopic.php?t=154954)
+to my MikroTik box, the older AT&T Fiber bypass method works here also.
+
+Also, Lumen/CenturyLink/Quantum Fiber now uses Smart NIDs (basically an ONT
+plus a wired router) instead of Calix ONTs.
+I never had a chance to have one as I cancelled CenturyLink before I could get
+one. I'll keep this guide online indefinitely for reference purposes.
+
 **WARNING:** This guide is for instructional purposes only. I am not
 responsible for any damages caused by this guide. This guide may violate
 your ISP's terms of service and is possibly illegal. Proceed at your own risk.
