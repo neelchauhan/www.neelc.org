@@ -21,7 +21,7 @@ in Connecticut. The guide which can be followed is the
 namely the bridge method.
 
 There is also a supplicant method but I haven't tested this. And even if
-Frontier GPON in Connecticut is based off AT&T Fiber, Frontier is not AT&T so
+Frontier GPON in Connecticut is based off AT&T Fiber Frontier is not AT&T so
 the certificates may be different. I remember hearing about a decade ago about
 AT&T-to-Frontier migration troubles so I'll assume they're different.
 
