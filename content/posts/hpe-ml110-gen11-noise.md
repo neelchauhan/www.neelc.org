@@ -28,4 +28,4 @@ While noise won't go completely, it'll become pretty bearable when inside a
 closet. And oh, it'll run cooler.
 
 Keep in mind that there might be some performance penalty as it's on a low
-power mode. I haven't done benchmarks so I don't know my how muhc.
+power mode. I haven't done benchmarks so I don't know my how much.
