@@ -17,8 +17,8 @@ cable. The worst part, the ticket is still open.
 
 This is something I would expect from Apple, a company making devices with
 soldiered everything and a history of fighting repair. I don't expect this from
-HPE where service guides are published and solidered everything is nonexistent
-on ProLiants (unlike Macs).
+HPE where service guides are published and unlike Macs, solidered everything is
+nonexistent on ProLiants.
 
 So what did I do? Build a SAS cable myself out of parts on Amazon.
 
