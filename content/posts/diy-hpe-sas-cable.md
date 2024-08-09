@@ -13,7 +13,9 @@ To my surprise, there was no SAS cables in the open box server.
 
 When sourcing the official sources, I was in back and forth conversations with
 HPE and their "part suppliers" to no avail. And no, I did not get the right SAS
-cable. The worst part, the ticket is still open.
+cable. ~~The worst part, the ticket is still open.~~ **EDIT:** HPE did agree to
+send out a genuine SAS cable, yay! When will I get it, I don't know, but I hope
+HPE isn't slower than Temu or Shein.
 
 This is something I would expect from Apple, a company making devices with
 soldiered everything and a history of fighting repair. I don't expect this from
