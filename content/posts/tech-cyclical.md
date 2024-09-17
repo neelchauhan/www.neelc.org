@@ -9,7 +9,8 @@ job, I'm not exactly keen on my department, I have *many* reservations about my
 product, I wanted to move on.
 
 But even when I tried applying for jobs, why should they hire me instead of
-someone who's so desperate they'll work for less?
+someone who's so desperate they'll work for less? This just happened to me
+*last week*.
 
 This made me realize, tech is a cyclical industry. There is a new technology
 which kicks off a boom. Our last boom was built on mobile. The one before that,
