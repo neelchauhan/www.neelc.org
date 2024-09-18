@@ -34,6 +34,7 @@ So you wanna bypass? First, log into the serial console and paste this:
 
 Keep in mind that:
 
+ * Replace `00:00:00:00:00:00` with the 802.1X-speaking router's WAN MAC address
  * Replace `ether1` with the interface connected to the ONT
  * Replace `ether2` with the interface connected to the 802.1X-speaking router
  * It will take a while to boot up, since 802.1X has to authenticate via a "bridge" then get shut down
