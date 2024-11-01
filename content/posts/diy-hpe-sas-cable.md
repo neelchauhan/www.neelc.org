@@ -13,9 +13,15 @@ To my surprise, there was no SAS cables in the open box server.
 
 When sourcing the official sources, I was in back and forth conversations with
 HPE and their "part suppliers" to no avail. And no, I did not get the right SAS
-cable. ~~The worst part, the ticket is still open.~~ **EDIT:** HPE did agree to
+cable. ~~The worst part, the ticket is still open.~~
+
+**EDIT:** HPE did agree to
 send out a genuine SAS cable, yay! When will I get it, I don't know, but I hope
 HPE isn't slower than Temu or Shein.
+
+**EDIT 2:** HPE actually sent out a SAS cable months ago and I installed it
+just one day before the Amazon return period ended. Now I am not using it
+because I never used my NAS, I just use it as another "compute" server.
 
 This is something I would expect from Apple, a company making devices with
 soldiered everything and a history of fighting repair. I don't expect this from
@@ -35,7 +41,7 @@ time of writing.
 
 ![The create VM dialog](/images/hpe_ml110_diy_sas.jpg)
 
-Apparently, HPE used a SlimSAS LP (low profile) cable which not widespred is
+Apparently, HPE used a SlimSAS LP (low profile) cable which not widespread is
 still not proprietary a la Pentalobe screws or Lightning connectors. The
 SlimSAS cable I used is actually a ripoff Dell cable.
 
