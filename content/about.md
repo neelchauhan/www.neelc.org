@@ -5,15 +5,20 @@ date: "2023-06-07"
 
 Hi!
 
-My name is Neel Chauhan and I am a Software Engineer at
-[Microsoft 365](https://www.microsoft.com/en-us/).
-I previously worked at [CacheCash](https://ssl.engineering.nyu.edu/projects#cachecash)
+My name is Neel Chauhan and I am the founder and CEO of
+[Fourplex Telecom LLC](https://www.fourplex.net/). I previously ran
+[Qeru](https://qeru.net) and formerly worked at
+[Microsoft 365](https://www.microsoft.com/en-us/),
+[CacheCash](https://ssl.engineering.nyu.edu/projects#cachecash)
 and [NYU CUSP](https://cusp.nyu.edu/). I am a graduate of
 [NYU Tandon](https://engineering.nyu.edu/) in Computer Science.
 
-I am a former [FreeBSD](https://www.freebsd.org/)
-[Ports](https://www.freebsd.org/ports/) committer
-and [Tor](https://www.torproject.org/) Core contributor.
+I am a contributor to:
+
+ * [Fedora](https://fedoraproject.org/) RPM packaging
+ * [Rocky Linux](https://rockylinux.org/) [Documentation](https://docs.rockylinux.org/)
+ * [Tor](https://www.torproject.org/)
+ * [FreeBSD](https://www.freebsd.org/) [Ports](https://www.freebsd.org/ports/) committer
 
 To get in contact with me, my personal email is: neel **at** neelc **dot** org.
 
