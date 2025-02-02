@@ -1,9 +1,34 @@
 ---
 title: "Projects"
-date: "2023-06-07"
+date: "2025-02-02"
 ---
 
 # Current
+
+## Fourplex (2025-Present)
+
+[Fourplex](https://www.fourplex.net) is my new startup building an affordable
+solution to hosting servers behind Carrier Grade NAT and other firewalls as
+well as IPv6 tunneling.
+
+At the time of writing (2/2/2025) Fourplex is pre-launch as I am awaiting ARIN
+IPv6 and leased IPv4 space.
+
+## Fedora (2024-Present)
+
+If it wasn't already obvious, [Fedora](https://fedoraproject.org/) is Red Hat's
+cutting edge development Linux distribution.
+
+I primarily package RPM packages for Fedora. Unfortunately Fedora does not make
+it easy to sort packages by contributor so I can't share a link.
+
+## Rocky Linux (2024-Present)
+
+Built by the founder of CentOS, [Rocky Linux](https://rockylinux.org/) is a
+100% bug-for-bug Red Hat Enterprise Linux-compatible operating system.
+
+In Rocky Linux, I primarily work on documentation. My commits can be seen
+[on GitHub](https://github.com/rocky-linux/documentation/commits?author=neelchauhan).
 
 ## The Tor Project (2016-Present)
 
@@ -16,33 +41,27 @@ In the past, I was a major
 contributor, focusing on
 [Onion Services](https://www.torproject.org/docs/onion-services.html.en) and
 IPv6 support. I have also contributed to other areas in Tor including exit
-policy configuration, entry guard optimizations, and FreeBSD support.
+policy configuration, entry guard optimizations, and FreeBSD support. I still
+post the occasional patch but I'm largely moving towards networking as opposed
+to software engineering.
 
 My Tor commits can be seen at
 [Tor's GitWeb](https://gitweb.torproject.org/tor.git/log/?qt=author&q=Neel+Chauhan) and
 [GitLab](https://gitlab.torproject.org/tpo/core/arti/-/commits/main?author=Neel%20Chauhan).
 
-I've also contributed to documentation, which can be seen
-[here](https://gitlab.torproject.org/users/neel/activity).
-
-I also run Tor relays and exits, and have done so since 2014. My relays can be seen at
+I also run Tor relays and exits, and have done so since 2014. My relays can be
+seen at
 [Tor Relay Status](https://metrics.torproject.org/rs.html#search/NeelTor%20contact:neelc).
-I am a top Tor exit relay operator, with ~1.5% of total exit capacity.
 
-# Previous
-
-## The FreeBSD Project (2014-2023)
+## The FreeBSD Project (2014-Present)
 
 [FreeBSD](https://www.freebsd.org/) is a general-purpose Unix-like operating
-system. I was a FreeBSD user from 2012-2022 and contributor from 2014-2023 in
-various areas.
+system.
 
-I was a [FreeBSD Ports](https://www.freebsd.org/ports) committer, from being a
+I am a [FreeBSD Ports](https://www.freebsd.org/ports) committer, from being a
 contributor from 2014 back in my senior year of high school.
 
-I formerly maintained many Ports including big-name titles such as
-[Keras](https://keras.io/). I was also a contributor to FreeBSD's
-[GNOME](https://www.gnome.org/) packages.
+I maintain many Ports, most notably [GNOME](https://www.gnome.org/) packages.
 
 Outside of Ports, I worked on the FreeBSD networking, firewall, and routing
 stack. One key set of patches was that I helped make IPFW's NAT implementation
@@ -58,6 +77,16 @@ Commits I was involved in can be seen at:
  * [FreshBSD since 2021](https://freshbsd.org/search?project[]=freebsd&q=nc&sort=commit_date)
 
  * [FreshBSD pre-2021](https://freshbsd.org/search?q=Neel+Chauhan&project%5B%5D=freebsd&sort=commit_date)
+
+# Previous
+
+## Qeru (2022-2024)
+
+[Qeru](https://qeru.net/) was a Virtual Private Server host focused on
+affordable, denial-of-service-protected virtual private servers. I built and
+maintained most of Qeru's infrastructure in a Dallas datacenter.
+
+Qeru was sold to George's Datacenter (now [Energized Web Hosting](https://www.energizedit.com/)).
 
 ## NYU Tandon Projects
 
