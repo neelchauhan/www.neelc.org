@@ -1,6 +1,6 @@
 ---
 title: "Setting up UniFi Controller on Debian 12"
-date: 2025-03-11T13:50:00-04:00
+date: 2025-06-11T13:50:00-04:00
 showDate: true
 ---
 
