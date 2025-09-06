@@ -12,7 +12,7 @@ After all, like most Linux users I never liked `snap` packages.
 
 The problem? The
 [Rocky Linux installation instructions](https://linuxcontainers.org/incus/docs/main/installing/)
-for Incus points to a COPR repository for Rocky Linux 9, not 10.
+for Incus points to a Copr repository for Rocky Linux 9, not 10.
 
 While I have two Minisforums running Rocky Linux 9, I also have a HPE ProLiant
 ML30 Gen9 running Rocky Linux 10 as a domain controller, UniFi controller and
@@ -23,8 +23,8 @@ I decided then, why not try making my own updated repository?
 
 # How to install
 
-Because COPR builds EPEL by default on CentOS Stream, I was unable to install
-it on Rocky Linux due to Stream having newer packages. So I had to make COPR
+Because Copr builds EPEL by default on CentOS Stream, I was unable to install
+it on Rocky Linux due to Stream having newer packages. So I had to make Copr
 build it on RHEL+EPEL.
 
 So `dnf copr enable` won't work. Instead, you have to run the following as root:
